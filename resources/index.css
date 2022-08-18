@@ -113,7 +113,7 @@
   .mobile-show {
     display: block;
   }
-  @media(min-width: 720px) {
+  @media(min-width: 600px) {
     .mobile-hide {
       display: block;
     }
@@ -155,6 +155,15 @@
     text-decoration: none;
     margin-left: 20px;
   }
+  @media(max-width: 600px) {
+    .site-header {
+      display: none;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    
+  }
 
   
   /* Site Footer */
@@ -171,7 +180,7 @@
     margin-top: 15px;
   }
   
-  @media(min-width: 720px) {
+  @media(min-width: 600px) {
     .footer-right {
       float: right;
       margin-top: 0;
@@ -213,7 +222,7 @@
     color: #FFFFFF;
   }
   .button-secondary {
-    background-color: #BF223C;
+    background-color: #502B5A;
     color: #FFFFFF;
   }
 
@@ -324,7 +333,9 @@
     width: 70%;
     height: 350px;
   }
-  @media(min-width: 720px) {
+ 
+    
+@media(min-width: 600px) {
     .page-hero-header-left, .page-hero-header-right {
       width: 50%;
       text-align: left;
@@ -339,11 +350,11 @@
       line-height: 28px;
       margin: 0 0 20px;
     }
-
     .navigation-img-gamehub {
       max-height: 80px;
       width: auto;
     }
+  
     .main-content-info {
       background-repeat: no-repeat;
       background-position: center left;
